@@ -11,15 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
-  "keywords": [],  "license": "ISC",
+  "keywords": [],
+  "license": "ISC",
   "bugs": {
-    "url":  "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
     "axios": "^1.4.0",
     "date-fns": "^2.30.0",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.6",
+    "puppeteer": "^20.8.2",
     "simplelightbox": "^2.14.1"
   },
   "devDependencies": {
