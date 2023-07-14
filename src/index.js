@@ -20,7 +20,7 @@ let observer = new IntersectionObserver(loadMore, options);
 
 formEl.addEventListener('submit', hendleInput);
 
-// пошук запиту
+
 
 async function hendleInput(evt) {
   evt.preventDefault();
@@ -91,7 +91,7 @@ function createContent(arr) {
     .join('');
 }
 
-// завантижити більше
+
 
 async function loadMore(entries) {
   try {
